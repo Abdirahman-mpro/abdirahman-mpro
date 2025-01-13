@@ -1,0 +1,320 @@
+body{
+	background-image: url(pictures/anime.jpg);
+	color: white;
+
+
+
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+	
+
+
+
+
+}
+/*header section style*/
+
+.header{
+	width: 100%;
+	height: 40px;
+	background-color:whitesmoke ;
+	border-radius: 40px;
+
+}
+.header img{
+	width: 5%;
+	margin-left: 200px;
+	margin-top: 7px;
+	cursor: pointer;
+
+}
+	
+/*navigation bar style*/
+
+.navi{
+	width: 100%;
+	height: 60px;
+	background-color: black;
+	padding-left: 200px;
+	padding-top: 10px;
+	border-radius: 40px;
+
+}
+
+
+
+
+.navi a{
+
+	color: white;
+	font-size: 27px;
+	text-decoration: none;
+	padding: 10px 6px 17px 6px;
+	margin-right: 25px;
+	font-family: verdana;
+	border-radius: 40px;
+	
+}
+
+   
+
+
+.navi a:hover{
+	background-color: white;
+	color: gray;
+}
+/* here is content section*/
+.content{
+	width: 90%;
+	margin: 0 auto;
+	/*height: 500px;
+	background-color: ;*/
+	margin-top: 40px;
+}
+.clear{
+	content: "";
+	display: table;
+	clear: both;
+
+}
+
+.left{
+	width: 70%;
+	float: left;
+	/*height: 300px;
+	background-color: blue;*/
+
+}
+.right{
+	width: 30%;
+	float: left;
+	/*height: 300px;
+	background-color: green;*/
+}
+.right p{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 80%;
+
+}
+.right a{
+	text-decoration: none;
+	color: white;
+}
+.right a:hover{
+	text-decoration: underline;
+}
+.right h1{
+	color: white;
+}
+.box{
+	width: 90%;
+	margin-top: 30px;
+	
+	/*height: 650px;
+	background-color:whitesmoke;*/
+	
+
+	
+}
+box img{
+	width: 100%;
+
+	
+}
+.box a{
+	text-decoration: none;
+	color: white;
+}
+.box a:hover{
+	background-color: black;
+	color: gray;
+
+}
+
+/*footer style*/
+.footer{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	clear: both;
+	margin-top: 860px;
+	border-radius: 40px;
+	
+}
+.footerbox{
+	width: 20%;
+	float: left;
+	margin-right: 100px;
+	padding-top: 40px;
+}
+
+
+.footer h2{
+	margin-top: 0;
+	font-size: 20px;
+	color: white;
+	
+}
+.footer ul{
+	padding: 20px	;
+	color: white;
+	text-decoration: none;
+}
+
+
+.copy {
+    width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	background-color: black;
+	padding: 10px;
+	font-size: 25	px;
+	text-decoration: none;
+	clear: both;
+
+}
+@media screen and (max-width: 500px){
+	.left{
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+		
+	}
+	.header img{
+		width: 20%;
+		margin-right:0 auto;
+
+
+	}
+	.navi{
+		height: 200px;
+		margin-left: -5px;
+		width: 100%;
+		
+
+	}
+	.navi a{
+		
+		display: block;
+		margin-bottom: -4px;
+		text-align: center;
+	    margin-left: -200px;
+
+	}
+	.footer{
+		width: 100%;
+		padding-left: 40px;
+
+		
+
+	}
+	.right h1{
+		margin-top: 50px;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
